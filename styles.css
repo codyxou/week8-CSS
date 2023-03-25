@@ -1,0 +1,178 @@
+body {
+    justify-content: center;
+    background-color: tan;
+    margin-left:15px;
+}
+
+h1{
+    text-align:center; 
+    font-size:75px;
+}
+
+h2{
+    text-align:center;
+    font-size:42px;
+}
+
+h3{
+    text-align:center;
+}
+
+.nav-styles{
+    padding:10px; 
+    font-size:28px;
+    text-align:center
+}
+
+
+.nav-bg{
+    background-color: blue;
+    padding:15px;
+    border-radius:3px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+.index-img{
+    display:flex;
+    justify-content: center;
+    height:600px; 
+    width:auto;
+}
+
+.list-div{
+    display:flex;
+    justify-content: center;
+    font-size:25px;
+}
+
+.about-image{
+    display:flex;
+    justify-content: center;
+    height:500px;
+    width:auto;
+    
+}
+
+img{
+    border-radius:6px;
+}
+
+.contactImage{
+    display:flex;
+    justify-content: center;
+    height:500px;
+    width:auto;
+        
+}
+
+.about-content{
+ display:flex;
+ justify-content: space-around;
+ padding-top:10px;
+ margin:0 30rem 0 30rem
+}
+
+.formHeaders h3 {
+    font-size:42px;
+}
+
+table, th, td{
+    border: 2px solid;
+    border-collapse:collapse;
+    padding:8px;
+    margin: 0 55rem 0 55rem;
+    font-size:15px;
+}
+
+input[type=text], [type=email]{
+    padding: 12px 20px;
+    margin: 3px 55rem 0 55rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=checkbox]{
+    padding: 12px 20px;
+    margin: 3px 6px 0 55rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/*Hoping bootstrap/react will have a solution to turn these into "cards"*/
+
+input[type=submit]{
+    background-color: #0000ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 6px 0 55rem;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover{
+    background-color:red;
+}
+
+label{
+    margin:0 0 0 55rem;
+    font-size:18px;
+}
+
+textarea{
+    padding: 12px 20px;
+    margin: 3px 6px 0 55rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form{
+    font-size:22px;
+}
+
+
+
+@media only screen and (max-width:500px){
+
+.index-img, .contactImage {
+    height:400px;
+    width:250px;
+}
+h1{
+    font-size:30px;
+}
+h2, h3{
+    font-size:25px;
+}
+
+.formHeaders h3{
+    font-size:25px;
+    text-align:center;
+}
+
+input[type="text"], [type="email"]{
+    margin:3px 3rem 0 8rem;
+}
+
+form{
+    font-size:18px;
+}
+
+input[type=checkbox], label, textarea, input[type=submit],table, th, td{
+    margin:3px 5px 0 8rem;
+}
+
+.about-content{
+    margin: 0 0 0 6rem;
+    font-size:18px;
+}
+
+}
